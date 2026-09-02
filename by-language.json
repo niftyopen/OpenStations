@@ -1,0 +1,200 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-09-02",
+  "attribution": "OpenStations by niftyopen — https://github.com/niftyopen/OpenStations",
+  "groups": {
+    "en": [
+      {
+        "id": "bbc-world-service",
+        "name": "BBC World Service",
+        "streamURL": "http://stream.live.vc.bbcmedia.co.uk/bbc_world_service",
+        "genre": "News / Talk",
+        "country": "GB",
+        "language": "en",
+        "bitrate": 96,
+        "codec": "mp3",
+        "homepage": "https://www.bbc.co.uk/worldserviceradio"
+      },
+      {
+        "id": "somafm-beat-blender",
+        "name": "Beat Blender",
+        "streamURL": "https://ice1.somafm.com/beatblender-128-mp3",
+        "genre": "Electronic",
+        "country": "US",
+        "language": "en",
+        "bitrate": 128,
+        "codec": "mp3",
+        "homepage": "https://somafm.com/beatblender/"
+      },
+      {
+        "id": "somafm-drone-zone",
+        "name": "Drone Zone",
+        "streamURL": "https://ice1.somafm.com/dronezone-128-mp3",
+        "genre": "Ambient",
+        "country": "US",
+        "language": "en",
+        "bitrate": 128,
+        "codec": "mp3",
+        "homepage": "https://somafm.com/dronezone/"
+      },
+      {
+        "id": "somafm-groove-salad",
+        "name": "Groove Salad",
+        "streamURL": "https://ice1.somafm.com/groovesalad-128-mp3",
+        "genre": "Ambient",
+        "country": "US",
+        "language": "en",
+        "bitrate": 128,
+        "codec": "mp3",
+        "homepage": "https://somafm.com/groovesalad/"
+      },
+      {
+        "id": "kexp-seattle",
+        "name": "KEXP 90.3 Seattle",
+        "streamURL": "https://kexp.streamguys1.com/kexp160.aac",
+        "genre": "Alternative",
+        "country": "US",
+        "language": "en",
+        "bitrate": 160,
+        "codec": "aac",
+        "homepage": "https://kexp.org/"
+      },
+      {
+        "id": "kusc-classical",
+        "name": "KUSC 91.5 Classical",
+        "streamURL": "https://25353.live.streamtheworld.com/KUSCAAC96.aac",
+        "genre": "Classical",
+        "country": "US",
+        "language": "en",
+        "bitrate": 96,
+        "codec": "aac",
+        "homepage": "https://kusc.org/"
+      },
+      {
+        "id": "rthk-radio3",
+        "name": "RTHK Radio 3",
+        "streamURL": "http://stm.rthk.hk/radio3",
+        "genre": "News / Talk",
+        "country": "HK",
+        "language": "en",
+        "bitrate": 128,
+        "codec": "aac",
+        "homepage": "https://www.rthk.hk/radio/radio3"
+      },
+      {
+        "id": "radio-paradise-main",
+        "name": "Radio Paradise Main Mix",
+        "streamURL": "https://stream.radioparadise.com/mp3-192",
+        "genre": "Eclectic",
+        "country": "US",
+        "language": "en",
+        "bitrate": 192,
+        "codec": "mp3",
+        "homepage": "https://radioparadise.com/"
+      },
+      {
+        "id": "radio-paradise-mellow",
+        "name": "Radio Paradise Mellow Mix",
+        "streamURL": "https://stream.radioparadise.com/mellow-192",
+        "genre": "Eclectic",
+        "country": "US",
+        "language": "en",
+        "bitrate": 192,
+        "codec": "mp3",
+        "homepage": "https://radioparadise.com/"
+      },
+      {
+        "id": "somafm-sonic-universe",
+        "name": "Sonic Universe",
+        "streamURL": "https://ice1.somafm.com/sonicuniverse-128-mp3",
+        "genre": "Jazz",
+        "country": "US",
+        "language": "en",
+        "bitrate": 128,
+        "codec": "mp3",
+        "homepage": "https://somafm.com/sonicuniverse/"
+      },
+      {
+        "id": "somafm-space-station",
+        "name": "Space Station Soma",
+        "streamURL": "https://ice1.somafm.com/spacestation-128-mp3",
+        "genre": "Ambient",
+        "country": "US",
+        "language": "en",
+        "bitrate": 128,
+        "codec": "mp3",
+        "homepage": "https://somafm.com/spacestation/"
+      },
+      {
+        "id": "wbgo-jazz",
+        "name": "WBGO 88.3 Jazz",
+        "streamURL": "https://wbgo.streamguys1.com/wbgo96",
+        "genre": "Jazz",
+        "country": "US",
+        "language": "en",
+        "bitrate": 96,
+        "codec": "aac",
+        "homepage": "https://wbgo.org/"
+      },
+      {
+        "id": "wfmu-freeform",
+        "name": "WFMU 91.1 Freeform",
+        "streamURL": "https://stream0.wfmu.org/freeform-128k.mp3",
+        "genre": "Eclectic",
+        "country": "US",
+        "language": "en",
+        "bitrate": 128,
+        "codec": "mp3",
+        "homepage": "https://wfmu.org/"
+      }
+    ],
+    "fr": [
+      {
+        "id": "france-culture",
+        "name": "France Culture",
+        "streamURL": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+        "genre": "News / Talk",
+        "country": "FR",
+        "language": "fr",
+        "bitrate": 192,
+        "codec": "aac",
+        "homepage": "https://www.radiofrance.fr/franceculture"
+      },
+      {
+        "id": "france-musique",
+        "name": "France Musique",
+        "streamURL": "https://icecast.radiofrance.fr/francemusique-hifi.aac",
+        "genre": "Classical",
+        "country": "FR",
+        "language": "fr",
+        "bitrate": 192,
+        "codec": "aac",
+        "homepage": "https://www.radiofrance.fr/francemusique"
+      }
+    ],
+    "zh-HK": [
+      {
+        "id": "rthk-radio1",
+        "name": "RTHK Radio 1",
+        "streamURL": "http://stm.rthk.hk/radio1",
+        "genre": "News / Talk",
+        "country": "HK",
+        "language": "zh-HK",
+        "bitrate": 128,
+        "codec": "aac",
+        "homepage": "https://www.rthk.hk/radio/radio1"
+      },
+      {
+        "id": "rthk-radio4",
+        "name": "RTHK Radio 4",
+        "streamURL": "http://stm.rthk.hk/radio4",
+        "genre": "Classical",
+        "country": "HK",
+        "language": "zh-HK",
+        "bitrate": 128,
+        "codec": "aac",
+        "homepage": "https://www.rthk.hk/radio/radio4"
+      }
+    ]
+  }
+}

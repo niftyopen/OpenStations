@@ -1,0 +1,36 @@
+#EXTM3U
+# OpenStations — OpenStations by niftyopen — https://github.com/niftyopen/OpenStations
+#EXTINF:-1 tvg-name="KEXP 90.3 Seattle" tvg-language="en" tvg-country="US" group-title="Alternative",KEXP 90.3 Seattle
+https://kexp.streamguys1.com/kexp160.aac
+#EXTINF:-1 tvg-name="Drone Zone" tvg-language="en" tvg-country="US" group-title="Ambient",Drone Zone
+https://ice1.somafm.com/dronezone-128-mp3
+#EXTINF:-1 tvg-name="Groove Salad" tvg-language="en" tvg-country="US" group-title="Ambient",Groove Salad
+https://ice1.somafm.com/groovesalad-128-mp3
+#EXTINF:-1 tvg-name="Space Station Soma" tvg-language="en" tvg-country="US" group-title="Ambient",Space Station Soma
+https://ice1.somafm.com/spacestation-128-mp3
+#EXTINF:-1 tvg-name="France Musique" tvg-language="fr" tvg-country="FR" group-title="Classical",France Musique
+https://icecast.radiofrance.fr/francemusique-hifi.aac
+#EXTINF:-1 tvg-name="KUSC 91.5 Classical" tvg-language="en" tvg-country="US" group-title="Classical",KUSC 91.5 Classical
+https://25353.live.streamtheworld.com/KUSCAAC96.aac
+#EXTINF:-1 tvg-name="RTHK Radio 4" tvg-language="zh-HK" tvg-country="HK" group-title="Classical",RTHK Radio 4
+http://stm.rthk.hk/radio4
+#EXTINF:-1 tvg-name="Radio Paradise Main Mix" tvg-language="en" tvg-country="US" group-title="Eclectic",Radio Paradise Main Mix
+https://stream.radioparadise.com/mp3-192
+#EXTINF:-1 tvg-name="Radio Paradise Mellow Mix" tvg-language="en" tvg-country="US" group-title="Eclectic",Radio Paradise Mellow Mix
+https://stream.radioparadise.com/mellow-192
+#EXTINF:-1 tvg-name="WFMU 91.1 Freeform" tvg-language="en" tvg-country="US" group-title="Eclectic",WFMU 91.1 Freeform
+https://stream0.wfmu.org/freeform-128k.mp3
+#EXTINF:-1 tvg-name="Beat Blender" tvg-language="en" tvg-country="US" group-title="Electronic",Beat Blender
+https://ice1.somafm.com/beatblender-128-mp3
+#EXTINF:-1 tvg-name="Sonic Universe" tvg-language="en" tvg-country="US" group-title="Jazz",Sonic Universe
+https://ice1.somafm.com/sonicuniverse-128-mp3
+#EXTINF:-1 tvg-name="WBGO 88.3 Jazz" tvg-language="en" tvg-country="US" group-title="Jazz",WBGO 88.3 Jazz
+https://wbgo.streamguys1.com/wbgo96
+#EXTINF:-1 tvg-name="BBC World Service" tvg-language="en" tvg-country="GB" group-title="News / Talk",BBC World Service
+http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+#EXTINF:-1 tvg-name="France Culture" tvg-language="fr" tvg-country="FR" group-title="News / Talk",France Culture
+https://icecast.radiofrance.fr/franceculture-hifi.aac
+#EXTINF:-1 tvg-name="RTHK Radio 1" tvg-language="zh-HK" tvg-country="HK" group-title="News / Talk",RTHK Radio 1
+http://stm.rthk.hk/radio1
+#EXTINF:-1 tvg-name="RTHK Radio 3" tvg-language="en" tvg-country="HK" group-title="News / Talk",RTHK Radio 3
+http://stm.rthk.hk/radio3
