@@ -1,0 +1,112 @@
+name: Build derived views
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'stations.json'
+      - '.github/workflows/build.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Regenerate grouped views + M3U + PLS
+        run: |
+          python3 <<'PY'
+          import json, os
+
+          with open('stations.json', 'r') as f:
+              data = json.load(f)
+
+          stations = data['stations']
+          version = data.get('version', '1.0.0')
+          updated = data.get('updated', '')
+          attribution = data.get('attribution', '')
+
+          # ------ by-genre.json ------
+          by_genre = {}
+          for s in stations:
+              by_genre.setdefault(s['genre'], []).append(s)
+          for k in by_genre:
+              by_genre[k].sort(key=lambda s: s['name'])
+          with open('by-genre.json', 'w') as f:
+              json.dump({
+                  'version': version,
+                  'updated': updated,
+                  'attribution': attribution,
+                  'groups': by_genre,
+              }, f, indent=2, ensure_ascii=False)
+
+          # ------ by-country.json ------
+          by_country = {}
+          for s in stations:
+              by_country.setdefault(s['country'], []).append(s)
+          for k in by_country:
+              by_country[k].sort(key=lambda s: s['name'])
+          with open('by-country.json', 'w') as f:
+              json.dump({
+                  'version': version,
+                  'updated': updated,
+                  'attribution': attribution,
+                  'groups': by_country,
+              }, f, indent=2, ensure_ascii=False)
+
+          # ------ by-language.json ------
+          by_language = {}
+          for s in stations:
+              by_language.setdefault(s['language'], []).append(s)
+          for k in by_language:
+              by_language[k].sort(key=lambda s: s['name'])
+          with open('by-language.json', 'w') as f:
+              json.dump({
+                  'version': version,
+                  'updated': updated,
+                  'attribution': attribution,
+                  'groups': by_language,
+              }, f, indent=2, ensure_ascii=False)
+
+          # ------ stations.m3u (Extended M3U) ------
+          m3u_lines = ['#EXTM3U', f'# OpenStations — {attribution}']
+          for s in sorted(stations, key=lambda s: (s['genre'], s['name'])):
+              m3u_lines.append(f"#EXTINF:-1 tvg-name=\"{s['name']}\" tvg-language=\"{s['language']}\" tvg-country=\"{s['country']}\" group-title=\"{s['genre']}\",{s['name']}")
+              m3u_lines.append(s['streamURL'])
+          with open('stations.m3u', 'w') as f:
+              f.write('\n'.join(m3u_lines) + '\n')
+
+          # ------ stations.pls ------
+          pls_lines = ['[playlist]']
+          for i, s in enumerate(sorted(stations, key=lambda s: (s['genre'], s['name'])), start=1):
+              pls_lines.append(f'File{i}={s["streamURL"]}')
+              pls_lines.append(f'Title{i}={s["name"]}')
+              pls_lines.append(f'Length{i}=-1')
+          pls_lines.append(f'NumberOfEntries={len(stations)}')
+          pls_lines.append('Version=2')
+          with open('stations.pls', 'w') as f:
+              f.write('\n'.join(pls_lines) + '\n')
+
+          print(f'Generated {len(stations)} stations across {len(by_genre)} genres, {len(by_country)} countries, {len(by_language)} languages.')
+          PY
+
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add by-genre.json by-country.json by-language.json stations.m3u stations.pls
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: regenerate derived views"
+            git push
+          else
+            echo "No changes to derived files"
+          fi

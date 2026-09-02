@@ -1,0 +1,41 @@
+name: Broken stream
+description: Report a station whose stream URL no longer works
+title: '[Broken] '
+labels: ['broken-stream']
+body:
+  - type: input
+    id: station_id
+    attributes:
+      label: Station id
+      description: The `id` field from `stations.json` (e.g. `somafm-groove-salad`)
+      placeholder: somafm-groove-salad
+    validations:
+      required: true
+
+  - type: input
+    id: first_noticed
+    attributes:
+      label: When did you first notice?
+      description: Approximate date is fine
+      placeholder: 2026-09-02
+    validations:
+      required: false
+
+  - type: textarea
+    id: error
+    attributes:
+      label: Error message
+      description: Copy any error your player showed, or describe what happens
+      placeholder: |
+        VLC shows "Your input can't be opened".
+        Or: stream connects but plays nothing.
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes
+      description: Anything else that might help — replacement URL you know of, related news, etc.
+    validations:
+      required: false

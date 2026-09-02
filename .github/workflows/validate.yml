@@ -1,0 +1,88 @@
+name: Validate stream URLs
+
+on:
+  schedule:
+    # Every Monday at 06:00 UTC (14:00 Hong Kong time)
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Check every stream URL responds
+        id: check
+        run: |
+          python3 <<'PY'
+          import json, urllib.request, urllib.error, socket, os, sys
+
+          with open('stations.json') as f:
+              data = json.load(f)
+
+          failures = []
+          for s in data['stations']:
+              url = s['streamURL']
+              req = urllib.request.Request(url, headers={
+                  'User-Agent': 'OpenStations-Validator/1.0',
+                  'Icy-MetaData': '1',
+              })
+              try:
+                  with urllib.request.urlopen(req, timeout=15) as r:
+                      # Some streams respond with 200 immediately; some with
+                      # audio/* content-type; either is fine.
+                      status = r.status
+                      ctype = r.headers.get('Content-Type', '')
+                      if status >= 400:
+                          failures.append((s['id'], s['name'], f'HTTP {status}'))
+                      else:
+                          print(f'OK  {s["id"]:35s} {status} {ctype}')
+              except (urllib.error.HTTPError, urllib.error.URLError, socket.timeout, TimeoutError, ConnectionError) as e:
+                  failures.append((s['id'], s['name'], str(e)))
+                  print(f'FAIL {s["id"]:35s} {e}')
+              except Exception as e:
+                  failures.append((s['id'], s['name'], f'unexpected: {e}'))
+                  print(f'ERR  {s["id"]:35s} unexpected: {e}')
+
+          # Write summary for the next step
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write(f'failure_count={len(failures)}\n')
+
+          if failures:
+              body_lines = [
+                  'Weekly automated stream check found streams that are unreachable.',
+                  '',
+                  '| Station id | Name | Error |',
+                  '|------------|------|-------|',
+              ]
+              for sid, name, err in failures:
+                  err_short = str(err).replace('|', '\\|')[:120]
+                  body_lines.append(f'| `{sid}` | {name} | {err_short} |')
+              body_lines += [
+                  '',
+                  'If a stream URL has moved, please open a PR updating `stations.json`.',
+                  'If the station is permanently offline, we may need to remove it.',
+              ]
+              with open('/tmp/issue_body.md', 'w') as f:
+                  f.write('\n'.join(body_lines))
+          PY
+
+      - name: Open issue if any streams failed
+        if: steps.check.outputs.failure_count != '0'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: 'Weekly stream check — one or more streams unreachable'
+          content-filepath: /tmp/issue_body.md
+          labels: |
+            broken-stream
+            automated

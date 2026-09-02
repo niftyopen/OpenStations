@@ -1,0 +1,88 @@
+name: Suggest a station
+description: Propose adding a new station to the list
+title: '[Suggest] '
+labels: ['suggestion']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion. If you can, opening a PR that edits `stations.json`
+        directly is faster than an issue. See `CONTRIBUTING.md` for the schema.
+
+  - type: input
+    id: name
+    attributes:
+      label: Station name
+      placeholder: WNYC 93.9 FM
+    validations:
+      required: true
+
+  - type: input
+    id: stream_url
+    attributes:
+      label: Stream URL
+      description: Direct stream URL that plays in a standard media player
+      placeholder: https://fm939.wnyc.org/wnycfm-web
+    validations:
+      required: true
+
+  - type: input
+    id: homepage
+    attributes:
+      label: Homepage
+      placeholder: https://www.wnyc.org/
+    validations:
+      required: true
+
+  - type: input
+    id: genre
+    attributes:
+      label: Genre
+      description: 'One of: Ambient, Alternative, Classical, Country, Eclectic, Electronic, Folk, Hip-Hop, Jazz, Latin, News / Talk, Pop, Reggae, Rock, Soul, World'
+      placeholder: News / Talk
+    validations:
+      required: true
+
+  - type: input
+    id: country
+    attributes:
+      label: Country
+      description: ISO 3166-1 alpha-2 code (US, GB, HK, FR, JP, DE, …)
+      placeholder: US
+    validations:
+      required: true
+
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      description: BCP 47 tag (en, zh-HK, fr, ja, …)
+      placeholder: en
+    validations:
+      required: true
+
+  - type: dropdown
+    id: codec
+    attributes:
+      label: Codec
+      options:
+        - mp3
+        - aac
+        - ogg
+        - flac
+    validations:
+      required: true
+
+  - type: input
+    id: bitrate
+    attributes:
+      label: Bitrate (kbps)
+      placeholder: '128'
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything we should know?
+      description: Legal status, ownership, region restrictions, etc.
