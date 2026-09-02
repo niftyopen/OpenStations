@@ -104,9 +104,20 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add by-genre.json by-country.json by-language.json stations.m3u stations.pls
-          if ! git diff --cached --quiet; then
-            git commit -m "chore: regenerate derived views"
-            git push
-          else
+          if git diff --cached --quiet; then
             echo "No changes to derived files"
+            exit 0
           fi
+          git commit -m "chore: regenerate derived views"
+          # Rebase on any concurrent updates and retry, so re-runs and racing
+          # pushes don't fail with "fetch first".
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "Push succeeded on attempt $attempt"
+              exit 0
+            fi
+            echo "Push rejected on attempt $attempt; pulling with rebase..."
+            git pull --rebase origin main
+          done
+          echo "Push still failing after 3 attempts"
+          exit 1
