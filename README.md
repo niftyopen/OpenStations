@@ -22,19 +22,19 @@ Auto-generated views regenerate from `stations.json` on every push, so all files
 ### Grab the raw JSON
 
 ```
-https://raw.githubusercontent.com/niftyopen/OpenStations/main/stations.json
+https://niftyopen.github.io/OpenStations/stations.json
 ```
 
 ### Grab the M3U (drop into VLC or iTunes)
 
 ```
-https://raw.githubusercontent.com/niftyopen/OpenStations/main/stations.m3u
+https://niftyopen.github.io/OpenStations/stations.m3u
 ```
 
 ### From your app
 
 ```swift
-let url = URL(string: "https://raw.githubusercontent.com/niftyopen/OpenStations/main/stations.json")!
+let url = URL(string: "https://niftyopen.github.io/OpenStations/stations.json")!
 let (data, _) = try await URLSession.shared.data(from: url)
 let catalog = try JSONDecoder().decode(RadioCatalog.self, from: data)
 ```
