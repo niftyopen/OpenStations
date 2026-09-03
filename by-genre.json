@@ -296,8 +296,8 @@
         "genre": "News / Talk",
         "country": "HK",
         "language": "zh-HK",
-        "bitrate": 128,
-        "codec": "aac",
+        "bitrate": 96,
+        "codec": "mp3",
         "homepage": "https://www.rthk.hk/radio/radio1"
       },
       {
@@ -307,8 +307,8 @@
         "genre": "News / Talk",
         "country": "HK",
         "language": "en",
-        "bitrate": 128,
-        "codec": "aac",
+        "bitrate": 96,
+        "codec": "mp3",
         "homepage": "https://www.rthk.hk/radio/radio3"
       },
       {
@@ -319,7 +319,8 @@
         "country": "HK",
         "language": "zh-HK",
         "codec": "mp3",
-        "homepage": "https://www.rthk.hk/radio/radio5"
+        "homepage": "https://www.rthk.hk/radio/radio5",
+        "bitrate": 96
       },
       {
         "id": "rt-radio-1",
@@ -385,8 +386,8 @@
         "genre": "Classical",
         "country": "HK",
         "language": "zh-HK",
-        "bitrate": 128,
-        "codec": "aac",
+        "bitrate": 96,
+        "codec": "mp3",
         "homepage": "https://www.rthk.hk/radio/radio4"
       },
       {
@@ -454,7 +455,8 @@
         "country": "HK",
         "language": "zh-HK",
         "codec": "mp3",
-        "homepage": "https://www.rthk.hk/radio/radio2"
+        "homepage": "https://www.rthk.hk/radio/radio2",
+        "bitrate": 96
       },
       {
         "id": "radio-swiss-pop",
