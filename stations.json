@@ -105,28 +105,6 @@
       "homepage": "https://wfmu.org/"
     },
     {
-      "id": "wbgo-jazz",
-      "name": "WBGO 88.3 Jazz",
-      "streamURL": "https://wbgo.streamguys1.com/wbgo96",
-      "genre": "Jazz",
-      "country": "US",
-      "language": "en",
-      "bitrate": 96,
-      "codec": "aac",
-      "homepage": "https://wbgo.org/"
-    },
-    {
-      "id": "kusc-classical",
-      "name": "KUSC 91.5 Classical",
-      "streamURL": "https://25353.live.streamtheworld.com/KUSCAAC96.aac",
-      "genre": "Classical",
-      "country": "US",
-      "language": "en",
-      "bitrate": 96,
-      "codec": "aac",
-      "homepage": "https://kusc.org/"
-    },
-    {
       "id": "france-culture",
       "name": "France Culture",
       "streamURL": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
