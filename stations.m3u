@@ -1,34 +1,104 @@
 #EXTM3U
 # OpenStations — OpenStations by niftyopen — https://github.com/niftyopen/OpenStations
+#EXTINF:-1 tvg-name="BBC Radio 6 Music" tvg-language="en" tvg-country="GB" group-title="Alternative",BBC Radio 6 Music
+https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/pc_hd_abr_v2/aks/bbc_6music.m3u8
+#EXTINF:-1 tvg-name="Indie Pop Rocks!" tvg-language="en" tvg-country="US" group-title="Alternative",Indie Pop Rocks!
+https://ice1.somafm.com/indiepop-128-mp3
 #EXTINF:-1 tvg-name="KEXP 90.3 Seattle" tvg-language="en" tvg-country="US" group-title="Alternative",KEXP 90.3 Seattle
 https://kexp.streamguys1.com/kexp160.aac
+#EXTINF:-1 tvg-name="triple j" tvg-language="en" tvg-country="AU" group-title="Alternative",triple j
+https://mediaserviceslive.akamaized.net/hls/live/2038308/triplejnsw/masterhq.m3u8
 #EXTINF:-1 tvg-name="Drone Zone" tvg-language="en" tvg-country="US" group-title="Ambient",Drone Zone
 https://ice1.somafm.com/dronezone-128-mp3
 #EXTINF:-1 tvg-name="Groove Salad" tvg-language="en" tvg-country="US" group-title="Ambient",Groove Salad
 https://ice1.somafm.com/groovesalad-128-mp3
 #EXTINF:-1 tvg-name="Space Station Soma" tvg-language="en" tvg-country="US" group-title="Ambient",Space Station Soma
 https://ice1.somafm.com/spacestation-128-mp3
+#EXTINF:-1 tvg-name="BBC Radio 3" tvg-language="en" tvg-country="GB" group-title="Classical",BBC Radio 3
+https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/pc_hd_abr_v2/aks/bbc_radio_three.m3u8
 #EXTINF:-1 tvg-name="France Musique" tvg-language="fr" tvg-country="FR" group-title="Classical",France Musique
 https://icecast.radiofrance.fr/francemusique-hifi.aac
 #EXTINF:-1 tvg-name="RTHK Radio 4" tvg-language="zh-HK" tvg-country="HK" group-title="Classical",RTHK Radio 4
 http://stm.rthk.hk/radio4
+#EXTINF:-1 tvg-name="RTÉ lyric fm" tvg-language="en" tvg-country="IE" group-title="Classical",RTÉ lyric fm
+https://icecast.rte.ie/lyric
+#EXTINF:-1 tvg-name="Radio Swiss Classic" tvg-language="de" tvg-country="CH" group-title="Classical",Radio Swiss Classic
+https://stream.srg-ssr.ch/m/rsc_de/mp3_128
+#EXTINF:-1 tvg-name="WQXR 105.9" tvg-language="en" tvg-country="US" group-title="Classical",WQXR 105.9
+https://stream.wqxr.org/wqxr
+#EXTINF:-1 tvg-name="Boot Liquor" tvg-language="en" tvg-country="US" group-title="Country",Boot Liquor
+https://ice1.somafm.com/bootliquor-128-mp3
+#EXTINF:-1 tvg-name="Deutschlandfunk Kultur" tvg-language="de" tvg-country="DE" group-title="Eclectic",Deutschlandfunk Kultur
+https://st02.sslstream.dlf.de/dlf/02/128/mp3/stream.mp3
+#EXTINF:-1 tvg-name="FIP" tvg-language="fr" tvg-country="FR" group-title="Eclectic",FIP
+https://icecast.radiofrance.fr/fip-hifi.aac
 #EXTINF:-1 tvg-name="Radio Paradise Main Mix" tvg-language="en" tvg-country="US" group-title="Eclectic",Radio Paradise Main Mix
 https://stream.radioparadise.com/mp3-192
 #EXTINF:-1 tvg-name="Radio Paradise Mellow Mix" tvg-language="en" tvg-country="US" group-title="Eclectic",Radio Paradise Mellow Mix
 https://stream.radioparadise.com/mellow-192
+#EXTINF:-1 tvg-name="Secret Agent" tvg-language="en" tvg-country="US" group-title="Eclectic",Secret Agent
+https://ice1.somafm.com/secretagent-128-mp3
 #EXTINF:-1 tvg-name="WFMU 91.1 Freeform" tvg-language="en" tvg-country="US" group-title="Eclectic",WFMU 91.1 Freeform
 https://stream0.wfmu.org/freeform-128k.mp3
 #EXTINF:-1 tvg-name="Beat Blender" tvg-language="en" tvg-country="US" group-title="Electronic",Beat Blender
 https://ice1.somafm.com/beatblender-128-mp3
+#EXTINF:-1 tvg-name="Lush" tvg-language="en" tvg-country="US" group-title="Electronic",Lush
+https://ice1.somafm.com/lush-128-mp3
+#EXTINF:-1 tvg-name="Folk Forward" tvg-language="en" tvg-country="US" group-title="Folk",Folk Forward
+https://ice1.somafm.com/folkfwd-128-mp3
+#EXTINF:-1 tvg-name="ThistleRadio" tvg-language="en" tvg-country="US" group-title="Folk",ThistleRadio
+https://ice1.somafm.com/thistle-128-mp3
+#EXTINF:-1 tvg-name="Fluid" tvg-language="en" tvg-country="US" group-title="Hip-Hop",Fluid
+https://ice1.somafm.com/fluid-128-mp3
+#EXTINF:-1 tvg-name="Mouv'" tvg-language="fr" tvg-country="FR" group-title="Hip-Hop",Mouv'
+https://icecast.radiofrance.fr/mouv-hifi.aac
+#EXTINF:-1 tvg-name="Radio Swiss Jazz" tvg-language="de" tvg-country="CH" group-title="Jazz",Radio Swiss Jazz
+https://stream.srg-ssr.ch/m/rsj/mp3_128
 #EXTINF:-1 tvg-name="Sonic Universe" tvg-language="en" tvg-country="US" group-title="Jazz",Sonic Universe
 https://ice1.somafm.com/sonicuniverse-128-mp3
+#EXTINF:-1 tvg-name="WWOZ 90.7 New Orleans" tvg-language="en" tvg-country="US" group-title="Jazz",WWOZ 90.7 New Orleans
+https://wwoz-sc.streamguys1.com/wwoz-hi.mp3
+#EXTINF:-1 tvg-name="ABC NewsRadio" tvg-language="en" tvg-country="AU" group-title="News / Talk",ABC NewsRadio
+https://mediaserviceslive.akamaized.net/hls/live/2038311/rnnsw/masterhq.m3u8
+#EXTINF:-1 tvg-name="BBC Radio 4" tvg-language="en" tvg-country="GB" group-title="News / Talk",BBC Radio 4
+https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/pc_hd_abr_v2/aks/bbc_radio_fourfm.m3u8
 #EXTINF:-1 tvg-name="BBC World Service" tvg-language="en" tvg-country="GB" group-title="News / Talk",BBC World Service
 http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+#EXTINF:-1 tvg-name="Deutschlandfunk" tvg-language="de" tvg-country="DE" group-title="News / Talk",Deutschlandfunk
+https://st01.sslstream.dlf.de/dlf/01/128/mp3/stream.mp3
 #EXTINF:-1 tvg-name="France Culture" tvg-language="fr" tvg-country="FR" group-title="News / Talk",France Culture
 https://icecast.radiofrance.fr/franceculture-hifi.aac
 #EXTINF:-1 tvg-name="France Inter" tvg-language="fr" tvg-country="FR" group-title="News / Talk",France Inter
 https://stream.radiofrance.fr/franceinter/franceinter_hifi.m3u8
+#EXTINF:-1 tvg-name="NPR Program Stream" tvg-language="en" tvg-country="US" group-title="News / Talk",NPR Program Stream
+https://npr-ice.streamguys1.com/live.mp3
 #EXTINF:-1 tvg-name="RTHK Radio 1" tvg-language="zh-HK" tvg-country="HK" group-title="News / Talk",RTHK Radio 1
 http://stm.rthk.hk/radio1
 #EXTINF:-1 tvg-name="RTHK Radio 3" tvg-language="en" tvg-country="HK" group-title="News / Talk",RTHK Radio 3
 http://stm.rthk.hk/radio3
+#EXTINF:-1 tvg-name="RTHK Radio 5" tvg-language="zh-HK" tvg-country="HK" group-title="News / Talk",RTHK Radio 5
+http://stm.rthk.hk/radio5
+#EXTINF:-1 tvg-name="RTÉ Radio 1" tvg-language="en" tvg-country="IE" group-title="News / Talk",RTÉ Radio 1
+https://icecast.rte.ie/radio1
+#EXTINF:-1 tvg-name="WNYC 93.9 FM" tvg-language="en" tvg-country="US" group-title="News / Talk",WNYC 93.9 FM
+https://fm939.wnyc.org/wnycfm
+#EXTINF:-1 tvg-name="franceinfo" tvg-language="fr" tvg-country="FR" group-title="News / Talk",franceinfo
+https://icecast.radiofrance.fr/franceinfo-hifi.aac
+#EXTINF:-1 tvg-name="BBC Radio 1" tvg-language="en" tvg-country="GB" group-title="Pop",BBC Radio 1
+https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/pc_hd_abr_v2/aks/bbc_radio_one.m3u8
+#EXTINF:-1 tvg-name="Deutschlandfunk Nova" tvg-language="de" tvg-country="DE" group-title="Pop",Deutschlandfunk Nova
+https://st03.sslstream.dlf.de/dlf/03/128/mp3/stream.mp3
+#EXTINF:-1 tvg-name="RTHK Radio 2" tvg-language="zh-HK" tvg-country="HK" group-title="Pop",RTHK Radio 2
+http://stm.rthk.hk/radio2
+#EXTINF:-1 tvg-name="Radio Swiss Pop" tvg-language="de" tvg-country="CH" group-title="Pop",Radio Swiss Pop
+https://stream.srg-ssr.ch/m/rsp/mp3_128
+#EXTINF:-1 tvg-name="Heavyweight Reggae" tvg-language="en" tvg-country="US" group-title="Reggae",Heavyweight Reggae
+https://ice1.somafm.com/reggae-128-mp3
+#EXTINF:-1 tvg-name="Left Coast 70s" tvg-language="en" tvg-country="US" group-title="Rock",Left Coast 70s
+https://ice1.somafm.com/seventies-128-mp3
+#EXTINF:-1 tvg-name="Metal Detector" tvg-language="en" tvg-country="US" group-title="Rock",Metal Detector
+https://ice1.somafm.com/metal-128-mp3
+#EXTINF:-1 tvg-name="Seven Inch Soul" tvg-language="en" tvg-country="US" group-title="Soul",Seven Inch Soul
+https://ice1.somafm.com/7soul-128-mp3
+#EXTINF:-1 tvg-name="Suburbs of Goa" tvg-language="en" tvg-country="US" group-title="World",Suburbs of Goa
+https://ice1.somafm.com/suburbsofgoa-128-mp3
