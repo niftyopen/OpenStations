@@ -33,8 +33,26 @@ Add your entry to the `stations` array, following this schema:
 | `country` | ✅ | ISO 3166-1 alpha-2 (US, GB, HK, FR, JP, DE, …) |
 | `language` | ✅ | BCP 47 tag (`en`, `zh-HK`, `fr`, `ja`, …) |
 | `bitrate` | ✅ | kbps as a number |
-| `codec` | ✅ | `mp3`, `aac`, `ogg`, or `flac` |
+| `codec` | ✅ | `mp3`, `aac`, `hls`, `ogg`, or `flac` |
 | `homepage` | ✅ | Official station page |
+
+### HLS (m3u8) streams
+
+When `codec = "hls"`, `streamURL` MUST point to an `.m3u8` playlist
+manifest (e.g. `https://example.com/live/hls/master.m3u8`). AVPlayer
+and most modern browsers handle HLS natively.
+
+Notes for contributors:
+- Verify the URL returns `Content-Type: application/vnd.apple.mpegurl`
+  OR ends in `.m3u8`
+- For adaptive HLS with multiple bitrates, record the **highest**
+  rendition's bitrate in the `bitrate` field
+- HLS uses segmented chunks — less resilient to weak network than
+  raw MP3 streams; note stability in the PR if known
+
+**NOT accepted:** playlist indirection files (`.pls`, plain `.m3u`
+files that list HTTP URLs). These aren't streams — they're pointers.
+Follow the pointer to the actual stream URL and submit that.
 
 ### Accepted genres
 

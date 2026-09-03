@@ -68,6 +68,7 @@ body:
       options:
         - mp3
         - aac
+        - hls
         - ogg
         - flac
     validations:

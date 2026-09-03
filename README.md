@@ -60,7 +60,7 @@ Each station in `stations.json`:
 - `id` — stable identifier, kebab-case
 - `country` — ISO 3166-1 alpha-2 code
 - `language` — BCP 47 tag
-- `codec` — `mp3`, `aac`, `ogg`, or `flac`
+- `codec` — `mp3`, `aac`, `hls`, `ogg`, or `flac`
 - `bitrate` — kbps
 - `homepage` — station's official page
 
