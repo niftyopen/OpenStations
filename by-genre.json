@@ -62,17 +62,6 @@
         "bitrate": 128,
         "codec": "mp3",
         "homepage": "https://somafm.com/sonicuniverse/"
-      },
-      {
-        "id": "wbgo-jazz",
-        "name": "WBGO 88.3 Jazz",
-        "streamURL": "https://wbgo.streamguys1.com/wbgo96",
-        "genre": "Jazz",
-        "country": "US",
-        "language": "en",
-        "bitrate": 96,
-        "codec": "aac",
-        "homepage": "https://wbgo.org/"
       }
     ],
     "Eclectic": [
@@ -121,41 +110,6 @@
         "bitrate": 160,
         "codec": "aac",
         "homepage": "https://kexp.org/"
-      }
-    ],
-    "Classical": [
-      {
-        "id": "france-musique",
-        "name": "France Musique",
-        "streamURL": "https://icecast.radiofrance.fr/francemusique-hifi.aac",
-        "genre": "Classical",
-        "country": "FR",
-        "language": "fr",
-        "bitrate": 192,
-        "codec": "aac",
-        "homepage": "https://www.radiofrance.fr/francemusique"
-      },
-      {
-        "id": "kusc-classical",
-        "name": "KUSC 91.5 Classical",
-        "streamURL": "https://25353.live.streamtheworld.com/KUSCAAC96.aac",
-        "genre": "Classical",
-        "country": "US",
-        "language": "en",
-        "bitrate": 96,
-        "codec": "aac",
-        "homepage": "https://kusc.org/"
-      },
-      {
-        "id": "rthk-radio4",
-        "name": "RTHK Radio 4",
-        "streamURL": "http://stm.rthk.hk/radio4",
-        "genre": "Classical",
-        "country": "HK",
-        "language": "zh-HK",
-        "bitrate": 128,
-        "codec": "aac",
-        "homepage": "https://www.rthk.hk/radio/radio4"
       }
     ],
     "News / Talk": [
@@ -213,6 +167,30 @@
         "bitrate": 128,
         "codec": "aac",
         "homepage": "https://www.rthk.hk/radio/radio3"
+      }
+    ],
+    "Classical": [
+      {
+        "id": "france-musique",
+        "name": "France Musique",
+        "streamURL": "https://icecast.radiofrance.fr/francemusique-hifi.aac",
+        "genre": "Classical",
+        "country": "FR",
+        "language": "fr",
+        "bitrate": 192,
+        "codec": "aac",
+        "homepage": "https://www.radiofrance.fr/francemusique"
+      },
+      {
+        "id": "rthk-radio4",
+        "name": "RTHK Radio 4",
+        "streamURL": "http://stm.rthk.hk/radio4",
+        "genre": "Classical",
+        "country": "HK",
+        "language": "zh-HK",
+        "bitrate": 128,
+        "codec": "aac",
+        "homepage": "https://www.rthk.hk/radio/radio4"
       }
     ]
   }

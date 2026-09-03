@@ -49,17 +49,6 @@
         "homepage": "https://kexp.org/"
       },
       {
-        "id": "kusc-classical",
-        "name": "KUSC 91.5 Classical",
-        "streamURL": "https://25353.live.streamtheworld.com/KUSCAAC96.aac",
-        "genre": "Classical",
-        "country": "US",
-        "language": "en",
-        "bitrate": 96,
-        "codec": "aac",
-        "homepage": "https://kusc.org/"
-      },
-      {
         "id": "radio-paradise-main",
         "name": "Radio Paradise Main Mix",
         "streamURL": "https://stream.radioparadise.com/mp3-192",
@@ -102,17 +91,6 @@
         "bitrate": 128,
         "codec": "mp3",
         "homepage": "https://somafm.com/spacestation/"
-      },
-      {
-        "id": "wbgo-jazz",
-        "name": "WBGO 88.3 Jazz",
-        "streamURL": "https://wbgo.streamguys1.com/wbgo96",
-        "genre": "Jazz",
-        "country": "US",
-        "language": "en",
-        "bitrate": 96,
-        "codec": "aac",
-        "homepage": "https://wbgo.org/"
       },
       {
         "id": "wfmu-freeform",
