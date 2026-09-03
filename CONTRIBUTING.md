@@ -32,7 +32,7 @@ Add your entry to the `stations` array, following this schema:
 | `genre` | ✅ | See genre list below |
 | `country` | ✅ | ISO 3166-1 alpha-2 (US, GB, HK, FR, JP, DE, …) |
 | `language` | ✅ | BCP 47 tag (`en`, `zh-HK`, `fr`, `ja`, …) |
-| `bitrate` | ✅ | kbps as a number |
+| `bitrate` | ⚠️ Optional | kbps as a number; omit or use null for HLS adaptive streams and hosts that don't publish one |
 | `codec` | ✅ | `mp3`, `aac`, `hls`, `ogg`, or `flac` |
 | `homepage` | ✅ | Official station page |
 

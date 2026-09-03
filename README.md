@@ -61,7 +61,8 @@ Each station in `stations.json`:
 - `country` — ISO 3166-1 alpha-2 code
 - `language` — BCP 47 tag
 - `codec` — `mp3`, `aac`, `hls`, `ogg`, or `flac`
-- `bitrate` — kbps
+- `bitrate` — kbps (optional; omit or set null for HLS adaptive
+  streams and hosts that don't publish a fixed bitrate)
 - `homepage` — station's official page
 
 ## License
