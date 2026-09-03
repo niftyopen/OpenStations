@@ -30,6 +30,8 @@ https://wbgo.streamguys1.com/wbgo96
 http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
 #EXTINF:-1 tvg-name="France Culture" tvg-language="fr" tvg-country="FR" group-title="News / Talk",France Culture
 https://icecast.radiofrance.fr/franceculture-hifi.aac
+#EXTINF:-1 tvg-name="France Inter" tvg-language="fr" tvg-country="FR" group-title="News / Talk",France Inter
+https://stream.radiofrance.fr/franceinter/franceinter_hifi.m3u8
 #EXTINF:-1 tvg-name="RTHK Radio 1" tvg-language="zh-HK" tvg-country="HK" group-title="News / Talk",RTHK Radio 1
 http://stm.rthk.hk/radio1
 #EXTINF:-1 tvg-name="RTHK Radio 3" tvg-language="en" tvg-country="HK" group-title="News / Talk",RTHK Radio 3
