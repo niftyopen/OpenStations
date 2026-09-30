@@ -65,6 +65,21 @@ Each station in `stations.json`:
   streams and hosts that don't publish a fixed bitrate)
 - `homepage` — station's official page
 
+Optional availability flags. A station without them is usable. **Apps should
+hide any station that carries either flag.** The entries stay in the catalog so
+they can be restored later.
+
+- `restricted` (`true`) + `restrictedReason` — set by hand when a station
+  shouldn't be played by third-party apps, for example because of rights or
+  legal concerns.
+- `offline` (`true`) + `offlineSince` (`YYYY-MM-DD`) — set automatically when
+  the stream fails the maintainers' health check (10 seconds of real audio).
+  The flag is removed once it plays again.
+
+`stations.m3u` and `stations.pls` leave flagged stations out, because plain
+players can't filter them. The `by-*.json` views include them with their
+flags.
+
 ## License
 
 This project is licensed under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.

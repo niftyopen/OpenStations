@@ -77,9 +77,14 @@ jobs:
                   'groups': by_language,
               }, f, indent=2, ensure_ascii=False)
 
+          # Plain playlists can't filter, so they only carry usable stations
+          # (no `restricted` / `offline` flag). The JSON views keep every
+          # station with its flags; apps are expected to hide flagged ones.
+          usable = [s for s in stations if not s.get('restricted') and not s.get('offline')]
+
           # ------ stations.m3u (Extended M3U) ------
           m3u_lines = ['#EXTM3U', f'# OpenStations — {attribution}']
-          for s in sorted(stations, key=lambda s: (s['genre'], s['name'])):
+          for s in sorted(usable, key=lambda s: (s['genre'], s['name'])):
               m3u_lines.append(f"#EXTINF:-1 tvg-name=\"{s['name']}\" tvg-language=\"{s['language']}\" tvg-country=\"{s['country']}\" group-title=\"{s['genre']}\",{s['name']}")
               m3u_lines.append(s['streamURL'])
           with open('stations.m3u', 'w') as f:
@@ -87,16 +92,16 @@ jobs:
 
           # ------ stations.pls ------
           pls_lines = ['[playlist]']
-          for i, s in enumerate(sorted(stations, key=lambda s: (s['genre'], s['name'])), start=1):
+          for i, s in enumerate(sorted(usable, key=lambda s: (s['genre'], s['name'])), start=1):
               pls_lines.append(f'File{i}={s["streamURL"]}')
               pls_lines.append(f'Title{i}={s["name"]}')
               pls_lines.append(f'Length{i}=-1')
-          pls_lines.append(f'NumberOfEntries={len(stations)}')
+          pls_lines.append(f'NumberOfEntries={len(usable)}')
           pls_lines.append('Version=2')
           with open('stations.pls', 'w') as f:
               f.write('\n'.join(pls_lines) + '\n')
 
-          print(f'Generated {len(stations)} stations across {len(by_genre)} genres, {len(by_country)} countries, {len(by_language)} languages.')
+          print(f'Generated {len(stations)} stations ({len(usable)} usable in m3u/pls) across {len(by_genre)} genres, {len(by_country)} countries, {len(by_language)} languages.')
           PY
 
       - name: Commit generated files
