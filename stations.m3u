@@ -1,7 +1,5 @@
 #EXTM3U
 # OpenStations — OpenStations by niftyopen — https://github.com/niftyopen/OpenStations
-#EXTINF:-1 tvg-name="BBC Radio 6 Music" tvg-language="en" tvg-country="GB" group-title="Alternative",BBC Radio 6 Music
-https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/pc_hd_abr_v2/aks/bbc_6music.m3u8
 #EXTINF:-1 tvg-name="Indie Pop Rocks!" tvg-language="en" tvg-country="US" group-title="Alternative",Indie Pop Rocks!
 https://ice1.somafm.com/indiepop-128-mp3
 #EXTINF:-1 tvg-name="KEXP 90.3 Seattle" tvg-language="en" tvg-country="US" group-title="Alternative",KEXP 90.3 Seattle
@@ -14,8 +12,6 @@ https://ice1.somafm.com/dronezone-128-mp3
 https://ice1.somafm.com/groovesalad-128-mp3
 #EXTINF:-1 tvg-name="Space Station Soma" tvg-language="en" tvg-country="US" group-title="Ambient",Space Station Soma
 https://ice1.somafm.com/spacestation-128-mp3
-#EXTINF:-1 tvg-name="BBC Radio 3" tvg-language="en" tvg-country="GB" group-title="Classical",BBC Radio 3
-https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/pc_hd_abr_v2/aks/bbc_radio_three.m3u8
 #EXTINF:-1 tvg-name="France Musique" tvg-language="fr" tvg-country="FR" group-title="Classical",France Musique
 https://icecast.radiofrance.fr/francemusique-hifi.aac
 #EXTINF:-1 tvg-name="RTHK Radio 4" tvg-language="zh-HK" tvg-country="HK" group-title="Classical",RTHK Radio 4
@@ -60,10 +56,6 @@ https://ice1.somafm.com/sonicuniverse-128-mp3
 https://wwoz-sc.streamguys1.com/wwoz-hi.mp3
 #EXTINF:-1 tvg-name="ABC NewsRadio" tvg-language="en" tvg-country="AU" group-title="News / Talk",ABC NewsRadio
 https://mediaserviceslive.akamaized.net/hls/live/2038311/rnnsw/masterhq.m3u8
-#EXTINF:-1 tvg-name="BBC Radio 4" tvg-language="en" tvg-country="GB" group-title="News / Talk",BBC Radio 4
-https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/pc_hd_abr_v2/aks/bbc_radio_fourfm.m3u8
-#EXTINF:-1 tvg-name="BBC World Service" tvg-language="en" tvg-country="GB" group-title="News / Talk",BBC World Service
-http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
 #EXTINF:-1 tvg-name="Deutschlandfunk" tvg-language="de" tvg-country="DE" group-title="News / Talk",Deutschlandfunk
 https://st01.sslstream.dlf.de/dlf/01/128/mp3/stream.mp3
 #EXTINF:-1 tvg-name="France Culture" tvg-language="fr" tvg-country="FR" group-title="News / Talk",France Culture
@@ -84,8 +76,6 @@ https://icecast.rte.ie/radio1
 https://fm939.wnyc.org/wnycfm
 #EXTINF:-1 tvg-name="franceinfo" tvg-language="fr" tvg-country="FR" group-title="News / Talk",franceinfo
 https://icecast.radiofrance.fr/franceinfo-hifi.aac
-#EXTINF:-1 tvg-name="BBC Radio 1" tvg-language="en" tvg-country="GB" group-title="Pop",BBC Radio 1
-https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/pc_hd_abr_v2/aks/bbc_radio_one.m3u8
 #EXTINF:-1 tvg-name="Deutschlandfunk Nova" tvg-language="de" tvg-country="DE" group-title="Pop",Deutschlandfunk Nova
 https://st03.sslstream.dlf.de/dlf/03/128/mp3/stream.mp3
 #EXTINF:-1 tvg-name="RTHK Radio 2" tvg-language="zh-HK" tvg-country="HK" group-title="Pop",RTHK Radio 2

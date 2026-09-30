@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updated": "2026-09-03",
+  "updated": "2026-09-30",
   "attribution": "OpenStations by niftyopen — https://github.com/niftyopen/OpenStations",
   "groups": {
     "Ambient": [
@@ -175,7 +175,9 @@
         "language": "en",
         "bitrate": 96,
         "codec": "hls",
-        "homepage": "https://www.bbc.co.uk/sounds/play/live:bbc_6music"
+        "homepage": "https://www.bbc.co.uk/sounds/play/live:bbc_6music",
+        "restricted": true,
+        "restrictedReason": "legal issue"
       },
       {
         "id": "indie-pop-rocks",
@@ -232,7 +234,9 @@
         "language": "en",
         "bitrate": 96,
         "codec": "hls",
-        "homepage": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_fourfm"
+        "homepage": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_fourfm",
+        "restricted": true,
+        "restrictedReason": "legal issue"
       },
       {
         "id": "bbc-world-service",
@@ -243,7 +247,9 @@
         "language": "en",
         "bitrate": 96,
         "codec": "mp3",
-        "homepage": "https://www.bbc.co.uk/worldserviceradio"
+        "homepage": "https://www.bbc.co.uk/worldserviceradio",
+        "restricted": true,
+        "restrictedReason": "legal issue"
       },
       {
         "id": "deutschlandfunk",
@@ -366,7 +372,9 @@
         "language": "en",
         "bitrate": 96,
         "codec": "hls",
-        "homepage": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_three"
+        "homepage": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_three",
+        "restricted": true,
+        "restrictedReason": "legal issue"
       },
       {
         "id": "france-musique",
@@ -434,7 +442,9 @@
         "language": "en",
         "bitrate": 96,
         "codec": "hls",
-        "homepage": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_one"
+        "homepage": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_one",
+        "restricted": true,
+        "restrictedReason": "legal issue"
       },
       {
         "id": "deutschlandfunk-nova",
