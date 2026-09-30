@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updated": "2026-09-03",
+  "updated": "2026-09-30",
   "source": "https://github.com/niftyopen/OpenStations",
   "license": "CC BY 4.0",
   "attribution": "OpenStations by niftyopen — https://github.com/niftyopen/OpenStations",
@@ -135,7 +135,9 @@
       "language": "en",
       "bitrate": 96,
       "codec": "mp3",
-      "homepage": "https://www.bbc.co.uk/worldserviceradio"
+      "homepage": "https://www.bbc.co.uk/worldserviceradio",
+      "restricted": true,
+      "restrictedReason": "legal issue"
     },
     {
       "id": "rthk-radio1",
@@ -212,7 +214,9 @@
       "language": "en",
       "bitrate": 96,
       "codec": "hls",
-      "homepage": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_fourfm"
+      "homepage": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_fourfm",
+      "restricted": true,
+      "restrictedReason": "legal issue"
     },
     {
       "id": "bbc-radio-6-music",
@@ -223,7 +227,9 @@
       "language": "en",
       "bitrate": 96,
       "codec": "hls",
-      "homepage": "https://www.bbc.co.uk/sounds/play/live:bbc_6music"
+      "homepage": "https://www.bbc.co.uk/sounds/play/live:bbc_6music",
+      "restricted": true,
+      "restrictedReason": "legal issue"
     },
     {
       "id": "triple-j",
@@ -267,7 +273,9 @@
       "language": "en",
       "bitrate": 96,
       "codec": "hls",
-      "homepage": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_one"
+      "homepage": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_one",
+      "restricted": true,
+      "restrictedReason": "legal issue"
     },
     {
       "id": "bbc-radio-3",
@@ -278,7 +286,9 @@
       "language": "en",
       "bitrate": 96,
       "codec": "hls",
-      "homepage": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_three"
+      "homepage": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_three",
+      "restricted": true,
+      "restrictedReason": "legal issue"
     },
     {
       "id": "wwoz-90-7-new-orleans",
