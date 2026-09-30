@@ -13,7 +13,8 @@
         "language": "en",
         "bitrate": 128,
         "codec": "mp3",
-        "homepage": "https://somafm.com/dronezone/"
+        "homepage": "https://somafm.com/dronezone/",
+        "artworkURL": "https://api.somafm.com/logos/512/dronezone512.png?v=1299186962"
       },
       {
         "id": "somafm-groove-salad",
@@ -24,7 +25,8 @@
         "language": "en",
         "bitrate": 128,
         "codec": "mp3",
-        "homepage": "https://somafm.com/groovesalad/"
+        "homepage": "https://somafm.com/groovesalad/",
+        "artworkURL": "https://api.somafm.com/logos/512/groovesalad512.png?v=1780812671"
       },
       {
         "id": "somafm-space-station",
@@ -35,7 +37,8 @@
         "language": "en",
         "bitrate": 128,
         "codec": "mp3",
-        "homepage": "https://somafm.com/spacestation/"
+        "homepage": "https://somafm.com/spacestation/",
+        "artworkURL": "https://api.somafm.com/logos/512/spacestation512.png?v=1299205660"
       }
     ],
     "Electronic": [
@@ -48,7 +51,8 @@
         "language": "en",
         "bitrate": 128,
         "codec": "mp3",
-        "homepage": "https://somafm.com/beatblender/"
+        "homepage": "https://somafm.com/beatblender/",
+        "artworkURL": "https://api.somafm.com/logos/512/beatblender512.png?v=1299186119"
       },
       {
         "id": "lush",
@@ -59,7 +63,8 @@
         "language": "en",
         "bitrate": 128,
         "codec": "mp3",
-        "homepage": "https://somafm.com/lush/"
+        "homepage": "https://somafm.com/lush/",
+        "artworkURL": "https://api.somafm.com/logos/512/lush512.png?v=1317866644"
       }
     ],
     "Jazz": [
@@ -72,7 +77,8 @@
         "language": "de",
         "bitrate": 128,
         "codec": "mp3",
-        "homepage": "https://www.radioswissjazz.ch/"
+        "homepage": "https://www.radioswissjazz.ch/",
+        "artworkURL": "https://www.radioswissjazz.ch/social-media/rsj-web.png"
       },
       {
         "id": "somafm-sonic-universe",
@@ -83,7 +89,8 @@
         "language": "en",
         "bitrate": 128,
         "codec": "mp3",
-        "homepage": "https://somafm.com/sonicuniverse/"
+        "homepage": "https://somafm.com/sonicuniverse/",
+        "artworkURL": "https://api.somafm.com/logos/512/sonicuniverse512.png?v=1299205522"
       },
       {
         "id": "wwoz-90-7-new-orleans",
@@ -94,7 +101,8 @@
         "language": "en",
         "bitrate": 128,
         "codec": "mp3",
-        "homepage": "https://www.wwoz.org/"
+        "homepage": "https://www.wwoz.org/",
+        "artworkURL": "https://www.wwoz.org/sites/default/files/favicons/apple-touch-icon-180x180.png"
       }
     ],
     "Eclectic": [
@@ -107,7 +115,8 @@
         "language": "de",
         "bitrate": 128,
         "codec": "mp3",
-        "homepage": "https://www.deutschlandfunkkultur.de/"
+        "homepage": "https://www.deutschlandfunkkultur.de/",
+        "artworkURL": "https://www.deutschlandfunkkultur.de/static/img/deutschlandfunk_kultur/icons/apple-touch-icon-180x180.png"
       },
       {
         "id": "fip",
@@ -129,7 +138,8 @@
         "language": "en",
         "bitrate": 192,
         "codec": "mp3",
-        "homepage": "https://radioparadise.com/"
+        "homepage": "https://radioparadise.com/",
+        "artworkURL": "https://vsh-smedia.radioparadise.com/uploads/RP_Logo_Flat_HCR_Green_1_18a033c355.png"
       },
       {
         "id": "radio-paradise-mellow",
@@ -140,7 +150,8 @@
         "language": "en",
         "bitrate": 192,
         "codec": "mp3",
-        "homepage": "https://radioparadise.com/"
+        "homepage": "https://radioparadise.com/",
+        "artworkURL": "https://vsh-smedia.radioparadise.com/uploads/RP_Logo_Flat_HCR_Green_1_18a033c355.png"
       },
       {
         "id": "secret-agent",
@@ -151,7 +162,8 @@
         "language": "en",
         "bitrate": 128,
         "codec": "mp3",
-        "homepage": "https://somafm.com/secretagent/"
+        "homepage": "https://somafm.com/secretagent/",
+        "artworkURL": "https://api.somafm.com/logos/512/secretagent512.png?v=1299188268"
       },
       {
         "id": "wfmu-freeform",
@@ -188,7 +200,8 @@
         "language": "en",
         "bitrate": 128,
         "codec": "mp3",
-        "homepage": "https://somafm.com/indiepop/"
+        "homepage": "https://somafm.com/indiepop/",
+        "artworkURL": "https://api.somafm.com/logos/512/indiepop512.png?v=1299187943"
       },
       {
         "id": "kexp-seattle",
@@ -199,7 +212,8 @@
         "language": "en",
         "bitrate": 160,
         "codec": "aac",
-        "homepage": "https://kexp.org/"
+        "homepage": "https://kexp.org/",
+        "artworkURL": "https://kexp.org/static/assets/img/KEXP_ios_safari_152px.png"
       },
       {
         "id": "triple-j",
@@ -210,7 +224,8 @@
         "language": "en",
         "bitrate": 246,
         "codec": "hls",
-        "homepage": "https://www.abc.net.au/triplej"
+        "homepage": "https://www.abc.net.au/triplej",
+        "artworkURL": "https://www.abc.net.au/core-assets/triplej/touchicon-triplej.png"
       }
     ],
     "News / Talk": [
@@ -260,7 +275,8 @@
         "language": "de",
         "bitrate": 128,
         "codec": "mp3",
-        "homepage": "https://www.deutschlandfunk.de/"
+        "homepage": "https://www.deutschlandfunk.de/",
+        "artworkURL": "https://www.deutschlandfunk.de/static/img/deutschlandfunk/icons/apple-touch-icon-180x180.png"
       },
       {
         "id": "france-culture",
@@ -293,7 +309,8 @@
         "language": "en",
         "bitrate": 96,
         "codec": "mp3",
-        "homepage": "https://www.npr.org/"
+        "homepage": "https://www.npr.org/",
+        "artworkURL": "https://media.npr.org/chrome/favicon/favicon-180x180.png"
       },
       {
         "id": "rthk-radio1",
@@ -304,7 +321,8 @@
         "language": "zh-HK",
         "bitrate": 96,
         "codec": "mp3",
-        "homepage": "https://www.rthk.hk/radio/radio1"
+        "homepage": "https://www.rthk.hk/radio/radio1",
+        "artworkURL": "https://www.rthk.hk/img/apple-icon-114x114.png"
       },
       {
         "id": "rthk-radio3",
@@ -315,7 +333,8 @@
         "language": "en",
         "bitrate": 96,
         "codec": "mp3",
-        "homepage": "https://www.rthk.hk/radio/radio3"
+        "homepage": "https://www.rthk.hk/radio/radio3",
+        "artworkURL": "https://www.rthk.hk/img/apple-icon-114x114.png"
       },
       {
         "id": "rthk-radio-5",
@@ -326,7 +345,8 @@
         "language": "zh-HK",
         "codec": "mp3",
         "homepage": "https://www.rthk.hk/radio/radio5",
-        "bitrate": 96
+        "bitrate": 96,
+        "artworkURL": "https://www.rthk.hk/img/apple-icon-114x114.png"
       },
       {
         "id": "rt-radio-1",
@@ -348,7 +368,8 @@
         "language": "en",
         "bitrate": 96,
         "codec": "mp3",
-        "homepage": "https://www.wnyc.org/"
+        "homepage": "https://www.wnyc.org/",
+        "artworkURL": "https://media.wnyc.org/i/600/600/c/80/1/wnyc_square_logo.png"
       },
       {
         "id": "franceinfo",
@@ -396,7 +417,8 @@
         "language": "zh-HK",
         "bitrate": 96,
         "codec": "mp3",
-        "homepage": "https://www.rthk.hk/radio/radio4"
+        "homepage": "https://www.rthk.hk/radio/radio4",
+        "artworkURL": "https://www.rthk.hk/img/apple-icon-114x114.png"
       },
       {
         "id": "rt-lyric-fm",
@@ -418,7 +440,8 @@
         "language": "de",
         "bitrate": 128,
         "codec": "mp3",
-        "homepage": "https://www.radioswissclassic.ch/"
+        "homepage": "https://www.radioswissclassic.ch/",
+        "artworkURL": "https://www.radioswissclassic.ch/social-media/rsc-web.png"
       },
       {
         "id": "wqxr-105-9",
@@ -429,7 +452,8 @@
         "language": "en",
         "bitrate": 128,
         "codec": "mp3",
-        "homepage": "https://www.wqxr.org/"
+        "homepage": "https://www.wqxr.org/",
+        "artworkURL": "https://media2.wnyc.org/i/600/600/c/80/1/wqxr_square_logo.png"
       }
     ],
     "Pop": [
@@ -455,7 +479,8 @@
         "language": "de",
         "bitrate": 128,
         "codec": "mp3",
-        "homepage": "https://www.deutschlandfunknova.de/"
+        "homepage": "https://www.deutschlandfunknova.de/",
+        "artworkURL": "https://www.deutschlandfunknova.de/android-chrome-256x256.png"
       },
       {
         "id": "rthk-radio-2",
@@ -466,7 +491,8 @@
         "language": "zh-HK",
         "codec": "mp3",
         "homepage": "https://www.rthk.hk/radio/radio2",
-        "bitrate": 96
+        "bitrate": 96,
+        "artworkURL": "https://www.rthk.hk/img/apple-icon-114x114.png"
       },
       {
         "id": "radio-swiss-pop",
@@ -477,7 +503,8 @@
         "language": "de",
         "bitrate": 128,
         "codec": "mp3",
-        "homepage": "https://www.radioswisspop.ch/"
+        "homepage": "https://www.radioswisspop.ch/",
+        "artworkURL": "https://www.radioswisspop.ch/social-media/rsp-web.png"
       }
     ],
     "Hip-Hop": [
@@ -490,7 +517,8 @@
         "language": "en",
         "bitrate": 128,
         "codec": "mp3",
-        "homepage": "https://somafm.com/fluid/"
+        "homepage": "https://somafm.com/fluid/",
+        "artworkURL": "https://api.somafm.com/logos/512/fluid512.jpg?v=1436822727"
       },
       {
         "id": "mouv",
@@ -514,7 +542,8 @@
         "language": "en",
         "bitrate": 128,
         "codec": "mp3",
-        "homepage": "https://somafm.com/seventies/"
+        "homepage": "https://somafm.com/seventies/",
+        "artworkURL": "https://api.somafm.com/logos/512/seventies512.jpg?v=1435992015"
       },
       {
         "id": "metal-detector",
@@ -525,7 +554,8 @@
         "language": "en",
         "bitrate": 128,
         "codec": "mp3",
-        "homepage": "https://somafm.com/metal/"
+        "homepage": "https://somafm.com/metal/",
+        "artworkURL": "https://api.somafm.com/logos/512/metal512.png?v=1438371170"
       }
     ],
     "World": [
@@ -538,7 +568,8 @@
         "language": "en",
         "bitrate": 128,
         "codec": "mp3",
-        "homepage": "https://somafm.com/suburbsofgoa/"
+        "homepage": "https://somafm.com/suburbsofgoa/",
+        "artworkURL": "https://api.somafm.com/logos/512/suburbsofgoa512.png?v=1299205961"
       }
     ],
     "Folk": [
@@ -551,7 +582,8 @@
         "language": "en",
         "bitrate": 128,
         "codec": "mp3",
-        "homepage": "https://somafm.com/folkfwd/"
+        "homepage": "https://somafm.com/folkfwd/",
+        "artworkURL": "https://api.somafm.com/logos/512/folkfwd512.png?v=1359700713"
       },
       {
         "id": "thistleradio",
@@ -562,7 +594,8 @@
         "language": "en",
         "bitrate": 128,
         "codec": "mp3",
-        "homepage": "https://somafm.com/thistle/"
+        "homepage": "https://somafm.com/thistle/",
+        "artworkURL": "https://api.somafm.com/logos/512/thistle512.jpg?v=1433008752"
       }
     ],
     "Soul": [
@@ -575,7 +608,8 @@
         "language": "en",
         "bitrate": 160,
         "codec": "mp3",
-        "homepage": "https://somafm.com/7soul/"
+        "homepage": "https://somafm.com/7soul/",
+        "artworkURL": "https://api.somafm.com/logos/512/7soul512.png?v=1396144489"
       }
     ],
     "Country": [
@@ -588,7 +622,8 @@
         "language": "en",
         "bitrate": 128,
         "codec": "mp3",
-        "homepage": "https://somafm.com/bootliquor/"
+        "homepage": "https://somafm.com/bootliquor/",
+        "artworkURL": "https://api.somafm.com/logos/512/bootliquor512.png?v=1299122797"
       }
     ],
     "Reggae": [
@@ -601,7 +636,8 @@
         "language": "en",
         "bitrate": 160,
         "codec": "mp3",
-        "homepage": "https://somafm.com/reggae/"
+        "homepage": "https://somafm.com/reggae/",
+        "artworkURL": "https://api.somafm.com/logos/512/reggae512.png?v=1579290024"
       }
     ]
   }
