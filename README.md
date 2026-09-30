@@ -64,6 +64,9 @@ Each station in `stations.json`:
 - `bitrate` — kbps (optional; omit or set null for HLS adaptive
   streams and hosts that don't publish a fixed bitrate)
 - `homepage` — station's official page
+- `artworkURL` — optional direct link (https) to a square PNG or JPEG logo,
+  at least 100 px (300+ preferred), no SVG. Apps use it instead of guessing
+  a logo from the homepage. Omit when unknown, never `null`.
 
 Optional availability flags. A station without them is usable. **Apps should
 hide any station that carries either flag.** The entries stay in the catalog so

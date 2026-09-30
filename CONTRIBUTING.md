@@ -35,6 +35,7 @@ Add your entry to the `stations` array, following this schema:
 | `bitrate` | ⚠️ Optional | kbps as a number; omit or use null for HLS adaptive streams and hosts that don't publish one |
 | `codec` | ✅ | `mp3`, `aac`, `hls`, `ogg`, or `flac` |
 | `homepage` | ✅ | Official station page |
+| `artworkURL` | ⚠️ Optional | Direct https link to a **square PNG or JPEG** logo, preferably hosted by the broadcaster. At least 100×100 px; 300+ looks best. No SVG, since apps can't always decode it. Omit when unknown, never `null`. |
 
 ### HLS (m3u8) streams
 
