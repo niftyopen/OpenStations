@@ -28,6 +28,8 @@ https://ice1.somafm.com/bootliquor-128-mp3
 https://st02.sslstream.dlf.de/dlf/02/128/mp3/stream.mp3
 #EXTINF:-1 tvg-name="FIP" tvg-language="fr" tvg-country="FR" group-title="Eclectic",FIP
 https://icecast.radiofrance.fr/fip-hifi.aac
+#EXTINF:-1 tvg-name="FM Setagaya 83.4" tvg-language="ja" tvg-country="JP" group-title="Eclectic",FM Setagaya 83.4
+https://fmsetagaya834.out.airtime.pro/fmsetagaya834_a
 #EXTINF:-1 tvg-name="Radio Paradise Main Mix" tvg-language="en" tvg-country="US" tvg-logo="https://vsh-smedia.radioparadise.com/uploads/RP_Logo_Flat_HCR_Green_1_18a033c355.png" group-title="Eclectic",Radio Paradise Main Mix
 https://stream.radioparadise.com/mp3-192
 #EXTINF:-1 tvg-name="Radio Paradise Mellow Mix" tvg-language="en" tvg-country="US" tvg-logo="https://vsh-smedia.radioparadise.com/uploads/RP_Logo_Flat_HCR_Green_1_18a033c355.png" group-title="Eclectic",Radio Paradise Mellow Mix
@@ -50,6 +52,8 @@ https://ice1.somafm.com/fluid-128-mp3
 https://icecast.radiofrance.fr/mouv-hifi.aac
 #EXTINF:-1 tvg-name="Radio Swiss Jazz" tvg-language="de" tvg-country="CH" tvg-logo="https://www.radioswissjazz.ch/social-media/rsj-web.png" group-title="Jazz",Radio Swiss Jazz
 https://stream.srg-ssr.ch/m/rsj/mp3_128
+#EXTINF:-1 tvg-name="Shonan Beach FM 78.9" tvg-language="ja" tvg-country="JP" tvg-logo="https://www.beachfm.co.jp/wp-content/themes/welcart_basic-voll-beachfm/img/common/logo.png" group-title="Jazz",Shonan Beach FM 78.9
+https://shonanbeachfm.out.airtime.pro/shonanbeachfm_a
 #EXTINF:-1 tvg-name="Sonic Universe" tvg-language="en" tvg-country="US" tvg-logo="https://api.somafm.com/logos/512/sonicuniverse512.png?v=1299205522" group-title="Jazz",Sonic Universe
 https://ice1.somafm.com/sonicuniverse-128-mp3
 #EXTINF:-1 tvg-name="WWOZ 90.7 New Orleans" tvg-language="en" tvg-country="US" tvg-logo="https://www.wwoz.org/sites/default/files/favicons/apple-touch-icon-180x180.png" group-title="Jazz",WWOZ 90.7 New Orleans
