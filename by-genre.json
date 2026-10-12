@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updated": "2026-10-06",
+  "updated": "2026-10-12",
   "attribution": "OpenStations by niftyopen — https://github.com/niftyopen/OpenStations",
   "groups": {
     "Ambient": [
@@ -172,6 +172,58 @@
     ],
     "Eclectic": [
       {
+        "id": "ara-fm",
+        "name": "ARA FM",
+        "streamURL": "http://141.164.38.238/listen/ara_fm/radio.mp3",
+        "genre": "Eclectic",
+        "country": "KR",
+        "language": "ko",
+        "bitrate": 192,
+        "codec": "mp3",
+        "homepage": "http://141.164.38.238/public/ara_fm",
+        "restricted": true,
+        "restrictedReason": "Hobby or overseas station playing commercial music; licensing is unclear. Action: confirm its music licensing (e.g. KOMCA) or get permission, then unflag."
+      },
+      {
+        "id": "arirang-radio",
+        "name": "Arirang Radio",
+        "streamURL": "http://amdlive.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8",
+        "genre": "Eclectic",
+        "country": "KR",
+        "language": "en",
+        "bitrate": 656,
+        "codec": "hls",
+        "homepage": "https://www.arirang.com/radio",
+        "artworkURL": "https://www.arirang.com/images/logo512.png",
+        "restricted": true,
+        "restrictedReason": "Terms not verified (the broadcaster's terms could not be read or were not found). Action: read its terms of use or get its permission, then unflag. Note: this stream includes video (visible radio) and uses more data."
+      },
+      {
+        "id": "befm-busan-english-fm",
+        "name": "BeFM Busan English FM",
+        "streamURL": "http://befm905.live.smilecdn.com:1935/befm905_live/live/playlist.m3u8",
+        "genre": "Eclectic",
+        "country": "KR",
+        "language": "en",
+        "bitrate": 194,
+        "codec": "hls",
+        "homepage": "https://www.befm.or.kr/",
+        "restricted": true,
+        "restrictedReason": "Terms not verified (the broadcaster's terms could not be read or were not found). Action: read its terms of use or get its permission, then unflag. Note: this stream includes video (visible radio) and uses more data."
+      },
+      {
+        "id": "cbs-music-fm",
+        "name": "CBS Music FM",
+        "streamURL": "https://m-aac.cbs.co.kr/mweb_cbs939/_definst_/cbs939.stream/playlist.m3u8",
+        "genre": "Eclectic",
+        "country": "KR",
+        "language": "ko",
+        "bitrate": 96,
+        "codec": "hls",
+        "homepage": "https://www.cbs.co.kr/",
+        "artworkURL": "https://www.cbs.co.kr/data/cbs/upload/save/company/cbs16901960123237.png"
+      },
+      {
         "id": "deutschlandfunk-kultur",
         "name": "Deutschlandfunk Kultur",
         "streamURL": "https://st02.sslstream.dlf.de/dlf/02/128/mp3/stream.mp3",
@@ -204,6 +256,20 @@
         "bitrate": 128,
         "codec": "mp3",
         "homepage": "https://fmsetagaya.com/"
+      },
+      {
+        "id": "obs-radio",
+        "name": "OBS Radio",
+        "streamURL": "https://vod3.obs.co.kr:444/live/obsstream1/radio.stream/playlist.m3u8",
+        "genre": "Eclectic",
+        "country": "KR",
+        "language": "ko",
+        "bitrate": 154,
+        "codec": "hls",
+        "homepage": "https://www.obs.co.kr/radio/",
+        "artworkURL": "https://www.obs.co.kr/renewal/assets/img/radio/icon_logo.png",
+        "restricted": true,
+        "restrictedReason": "Terms not verified (the broadcaster's terms could not be read or were not found). Action: read its terms of use or get its permission, then unflag."
       },
       {
         "id": "radio-paradise-main",
@@ -251,6 +317,20 @@
         "bitrate": 128,
         "codec": "mp3",
         "homepage": "https://wfmu.org/"
+      },
+      {
+        "id": "ifm-gyeongin-broadcasting",
+        "name": "iFM Gyeongin Broadcasting",
+        "streamURL": "https://stream.ifm.kr/live/aod1/playlist.m3u8",
+        "genre": "Eclectic",
+        "country": "KR",
+        "language": "ko",
+        "bitrate": 125,
+        "codec": "hls",
+        "homepage": "https://www.ifm.kr/",
+        "artworkURL": "https://www.ifm.kr/assets/_renewal/imgs/og_image_default.jpg",
+        "restricted": true,
+        "restrictedReason": "Terms not verified (the broadcaster's terms could not be read or were not found). Action: read its terms of use or get its permission, then unflag."
       }
     ],
     "Alternative": [
@@ -317,6 +397,19 @@
         "homepage": "https://www.abc.net.au/newsradio"
       },
       {
+        "id": "andong-mbc-am",
+        "name": "Andong MBC AM",
+        "streamURL": "http://andong.webcasting.co.kr:1935/live/amlive/playlist.m3u8",
+        "genre": "News / Talk",
+        "country": "KR",
+        "language": "ko",
+        "bitrate": 36,
+        "codec": "hls",
+        "homepage": "https://andongmbc.co.kr/",
+        "restricted": true,
+        "restrictedReason": "Terms not verified (the broadcaster's terms could not be read or were not found). Action: read its terms of use or get its permission, then unflag."
+      },
+      {
         "id": "bbc-radio-4",
         "name": "BBC Radio 4",
         "streamURL": "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/pc_hd_abr_v2/aks/bbc_radio_fourfm.m3u8",
@@ -375,6 +468,20 @@
         "bitrate": 192,
         "codec": "hls",
         "homepage": "https://www.radiofrance.fr/franceinter"
+      },
+      {
+        "id": "fred-film-radio-korean",
+        "name": "Fred Film Radio (Korean)",
+        "streamURL": "https://s10.webradio-hosting.com/proxy/fredradiokr/stream",
+        "genre": "News / Talk",
+        "country": "KR",
+        "language": "ko",
+        "bitrate": 128,
+        "codec": "mp3",
+        "homepage": "https://www.fred.fm/",
+        "artworkURL": "https://fredfmstatic.s3.eu-central-1.amazonaws.com/wp-content/uploads/2025/04/Fred600x600.png",
+        "restricted": true,
+        "restrictedReason": "Terms not verified (the broadcaster's terms could not be read or were not found). Action: read its terms of use or get its permission, then unflag."
       },
       {
         "id": "nhk-world-japan-radio",
@@ -450,6 +557,19 @@
         "homepage": "https://www.rte.ie/radio1/"
       },
       {
+        "id": "tbn-traffic-radio-gyeongin",
+        "name": "TBN Traffic Radio (Gyeongin)",
+        "streamURL": "http://radio2.tbn.or.kr:1935/gyeongin/myStream/playlist.m3u8",
+        "genre": "News / Talk",
+        "country": "KR",
+        "language": "ko",
+        "bitrate": 98,
+        "codec": "hls",
+        "homepage": "https://www.tbn.or.kr/",
+        "restricted": true,
+        "restrictedReason": "Terms not verified (the broadcaster's terms could not be read or were not found). Action: read its terms of use or get its permission, then unflag."
+      },
+      {
         "id": "wnyc-93-9-fm",
         "name": "WNYC 93.9 FM",
         "streamURL": "https://fm939.wnyc.org/wnycfm",
@@ -460,6 +580,19 @@
         "codec": "mp3",
         "homepage": "https://www.wnyc.org/",
         "artworkURL": "https://media.wnyc.org/i/600/600/c/80/1/wnyc_square_logo.png"
+      },
+      {
+        "id": "ytn-radio",
+        "name": "YTN Radio",
+        "streamURL": "https://radiolive.ytn.co.kr/radio/_definst_/20211118_fmlive/playlist.m3u8",
+        "genre": "News / Talk",
+        "country": "KR",
+        "language": "ko",
+        "bitrate": 128,
+        "codec": "hls",
+        "homepage": "https://www.ytn.co.kr/",
+        "restricted": true,
+        "restrictedReason": "YTN's terms require prior written consent to use its content on other platforms. Action: get YTN's written permission, then unflag."
       },
       {
         "id": "franceinfo",
@@ -561,6 +694,19 @@
     ],
     "Pop": [
       {
+        "id": "andong-mbc-fm4u",
+        "name": "Andong MBC FM4U",
+        "streamURL": "https://live.andongmbc.co.kr/live/fmlive/playlist.m3u8",
+        "genre": "Pop",
+        "country": "KR",
+        "language": "ko",
+        "bitrate": 36,
+        "codec": "hls",
+        "homepage": "https://andongmbc.co.kr/",
+        "restricted": true,
+        "restrictedReason": "Terms not verified (the broadcaster's terms could not be read or were not found). Action: read its terms of use or get its permission, then unflag."
+      },
+      {
         "id": "bbc-radio-1",
         "name": "BBC Radio 1",
         "streamURL": "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/pc_hd_abr_v2/aks/bbc_radio_one.m3u8",
@@ -572,6 +718,19 @@
         "homepage": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_one",
         "restricted": true,
         "restrictedReason": "legal issue"
+      },
+      {
+        "id": "big-b-radio-k-pop",
+        "name": "Big B Radio K-Pop",
+        "streamURL": "https://antares.dribbcast.com/proxy/kpop?mp=/s",
+        "genre": "Pop",
+        "country": "KR",
+        "language": "ko",
+        "bitrate": 192,
+        "codec": "mp3",
+        "homepage": "https://bigbradio.net/kpop",
+        "restricted": true,
+        "restrictedReason": "Hobby or overseas station playing commercial music; licensing is unclear. Action: confirm its music licensing (e.g. KOMCA) or get permission, then unflag."
       },
       {
         "id": "deutschlandfunk-nova",
@@ -655,6 +814,33 @@
         "artworkURL": "https://listen.moe/images/android-chrome-512x512.png"
       },
       {
+        "id": "listen-moe-k-pop",
+        "name": "LISTEN.moe K-Pop",
+        "streamURL": "https://listen.moe/kpop/fallback",
+        "genre": "Pop",
+        "country": "KR",
+        "language": "ko",
+        "bitrate": 192,
+        "codec": "mp3",
+        "homepage": "https://listen.moe/",
+        "artworkURL": "https://listen.moe/images/android-chrome-512x512.png",
+        "restricted": true,
+        "restrictedReason": "Hobby or overseas station playing commercial music; licensing is unclear. Action: confirm its music licensing (e.g. KOMCA) or get permission, then unflag."
+      },
+      {
+        "id": "oldpop-cafe",
+        "name": "Oldpop Cafe",
+        "streamURL": "http://cast.oldpopcafe.net:7080/",
+        "genre": "Pop",
+        "country": "KR",
+        "language": "ko",
+        "bitrate": 128,
+        "codec": "mp3",
+        "homepage": "https://oldpopcafe.net/",
+        "restricted": true,
+        "restrictedReason": "Hobby or overseas station playing commercial music; licensing is unclear. Action: confirm its music licensing (e.g. KOMCA) or get permission, then unflag."
+      },
+      {
         "id": "r-a-dio",
         "name": "R/a/dio",
         "streamURL": "https://relay0.r-a-d.io/main.mp3",
@@ -690,6 +876,19 @@
         "codec": "mp3",
         "homepage": "https://www.radioswisspop.ch/",
         "artworkURL": "https://www.radioswisspop.ch/social-media/rsp-web.png"
+      },
+      {
+        "id": "wow-ccm",
+        "name": "WOW CCM",
+        "streamURL": "http://wowccm.iptime.org:8000/stream/1/",
+        "genre": "Pop",
+        "country": "KR",
+        "language": "ko",
+        "bitrate": 128,
+        "codec": "mp3",
+        "homepage": "https://wowccm.net/",
+        "restricted": true,
+        "restrictedReason": "Hobby or overseas station playing commercial music; licensing is unclear. Action: confirm its music licensing (e.g. KOMCA) or get permission, then unflag."
       }
     ],
     "Hip-Hop": [
@@ -772,6 +971,20 @@
       }
     ],
     "World": [
+      {
+        "id": "gugak-fm",
+        "name": "Gugak FM",
+        "streamURL": "https://mgugaklive.nowcdn.co.kr/gugakradio/gugakradio.stream/playlist.m3u8",
+        "genre": "World",
+        "country": "KR",
+        "language": "ko",
+        "bitrate": 194,
+        "codec": "hls",
+        "homepage": "https://new.igbf.kr/",
+        "artworkURL": "https://www.igbf.kr/gugak_web/img/apple-touch-icon.png",
+        "restricted": true,
+        "restrictedReason": "Terms not verified (the broadcaster's terms could not be read or were not found). Action: read its terms of use or get its permission, then unflag."
+      },
       {
         "id": "suburbs-of-goa",
         "name": "Suburbs of Goa",

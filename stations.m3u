@@ -24,6 +24,8 @@ https://stream.srg-ssr.ch/m/rsc_de/mp3_128
 https://stream.wqxr.org/wqxr
 #EXTINF:-1 tvg-name="Boot Liquor" tvg-language="en" tvg-country="US" tvg-logo="https://api.somafm.com/logos/512/bootliquor512.png?v=1299122797" group-title="Country",Boot Liquor
 https://ice1.somafm.com/bootliquor-128-mp3
+#EXTINF:-1 tvg-name="CBS Music FM" tvg-language="ko" tvg-country="KR" tvg-logo="https://www.cbs.co.kr/data/cbs/upload/save/company/cbs16901960123237.png" group-title="Eclectic",CBS Music FM
+https://m-aac.cbs.co.kr/mweb_cbs939/_definst_/cbs939.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="Deutschlandfunk Kultur" tvg-language="de" tvg-country="DE" tvg-logo="https://www.deutschlandfunkkultur.de/static/img/deutschlandfunk_kultur/icons/apple-touch-icon-180x180.png" group-title="Eclectic",Deutschlandfunk Kultur
 https://st02.sslstream.dlf.de/dlf/02/128/mp3/stream.mp3
 #EXTINF:-1 tvg-name="FIP" tvg-language="fr" tvg-country="FR" group-title="Eclectic",FIP
