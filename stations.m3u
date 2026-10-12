@@ -64,10 +64,14 @@ https://wwoz-sc.streamguys1.com/wwoz-hi.mp3
 https://mediaserviceslive.akamaized.net/hls/live/2038311/rnnsw/masterhq.m3u8
 #EXTINF:-1 tvg-name="Deutschlandfunk" tvg-language="de" tvg-country="DE" tvg-logo="https://www.deutschlandfunk.de/static/img/deutschlandfunk/icons/apple-touch-icon-180x180.png" group-title="News / Talk",Deutschlandfunk
 https://st01.sslstream.dlf.de/dlf/01/128/mp3/stream.mp3
+#EXTINF:-1 tvg-name="Dhamma Home Radio" tvg-language="th" tvg-country="TH" tvg-logo="https://www.dhammahome.com/images/favicon/android-chrome-512x512.png" group-title="News / Talk",Dhamma Home Radio
+https://radio10.plathong.net/7238/;stream.mp3
 #EXTINF:-1 tvg-name="France Culture" tvg-language="fr" tvg-country="FR" group-title="News / Talk",France Culture
 https://icecast.radiofrance.fr/franceculture-hifi.aac
 #EXTINF:-1 tvg-name="France Inter" tvg-language="fr" tvg-country="FR" group-title="News / Talk",France Inter
 https://stream.radiofrance.fr/franceinter/franceinter_hifi.m3u8
+#EXTINF:-1 tvg-name="Muslim FM 104.25" tvg-language="th" tvg-country="TH" group-title="News / Talk",Muslim FM 104.25
+https://radio12.plathong.net/7234/;stream.mp3
 #EXTINF:-1 tvg-name="NPR Program Stream" tvg-language="en" tvg-country="US" tvg-logo="https://media.npr.org/chrome/favicon/favicon-180x180.png" group-title="News / Talk",NPR Program Stream
 https://npr-ice.streamguys1.com/live.mp3
 #EXTINF:-1 tvg-name="RTHK Radio 1" tvg-language="zh-HK" tvg-country="HK" tvg-logo="https://www.rthk.hk/img/apple-icon-114x114.png" group-title="News / Talk",RTHK Radio 1
@@ -80,6 +84,8 @@ http://stm.rthk.hk/radio5
 https://icecast.rte.ie/radio1
 #EXTINF:-1 tvg-name="WNYC 93.9 FM" tvg-language="en" tvg-country="US" tvg-logo="https://media.wnyc.org/i/600/600/c/80/1/wnyc_square_logo.png" group-title="News / Talk",WNYC 93.9 FM
 https://fm939.wnyc.org/wnycfm
+#EXTINF:-1 tvg-name="Wat Sanghathan Radio" tvg-language="th" tvg-country="TH" group-title="News / Talk",Wat Sanghathan Radio
+https://cdn-th2.livestreaming.in.th/shoutcast/8615
 #EXTINF:-1 tvg-name="franceinfo" tvg-language="fr" tvg-country="FR" group-title="News / Talk",franceinfo
 https://icecast.radiofrance.fr/franceinfo-hifi.aac
 #EXTINF:-1 tvg-name="Deutschlandfunk Nova" tvg-language="de" tvg-country="DE" tvg-logo="https://www.deutschlandfunknova.de/android-chrome-256x256.png" group-title="Pop",Deutschlandfunk Nova
