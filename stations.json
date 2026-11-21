@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updated": "2026-11-16",
+  "updated": "2026-11-21",
   "source": "https://github.com/niftyopen/OpenStations",
   "license": "CC BY 4.0",
   "attribution": "OpenStations by niftyopen — https://github.com/niftyopen/OpenStations",
@@ -1347,19 +1347,6 @@
       "codec": "mp3",
       "homepage": "https://www.bluewave97.com/",
       "artworkURL": "https://www.bluewave97.com/wp-content/uploads/2023/05/cropped-512x512-1-300x300.png",
-      "restricted": true,
-      "restrictedReason": "Terms not verified (the broadcaster's terms could not be read or were not found; Thai law gives broadcasters rights over their broadcasts). Action: read its terms of use or get its permission, then unflag."
-    },
-    {
-      "id": "mcot-radio-loei-fm-100",
-      "name": "MCOT Radio Loei FM 100",
-      "streamURL": "https://lb-media.mcot.net/RegionRadio/Loei.stream_aac/playlist.m3u8",
-      "genre": "Eclectic",
-      "country": "TH",
-      "language": "th",
-      "bitrate": 128,
-      "codec": "hls",
-      "homepage": "https://radio.mcot.net/",
       "restricted": true,
       "restrictedReason": "Terms not verified (the broadcaster's terms could not be read or were not found; Thai law gives broadcasters rights over their broadcasts). Action: read its terms of use or get its permission, then unflag."
     }
